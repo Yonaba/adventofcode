@@ -39,6 +39,6 @@ inp:close()
 for i in ipairs(claims) do
   local test = test_claim(i, claims)
   if test then
-    print("The overlapping claim is : #"..i)
+    print("The non-overlapping claim is : #"..i)
   end
 end
