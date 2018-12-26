@@ -1,3 +1,5 @@
+local unpack = table.unpack or unpack
+
 local function tonumbers(...)
   local args = {...}
   for k, v in ipairs(args) do
